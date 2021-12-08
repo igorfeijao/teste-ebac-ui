@@ -15,7 +15,7 @@ describe('Funcionalidade Página de produtos', () => {
             .click()
     });
 
-    it.only('Deve adicionar um produto ao carrinho', () => {
+    it('Deve adicionar um produto ao carrinho', () => {
         var quantidade = 3
         
         cy.get('[class="product-block grid"]')
@@ -28,6 +28,10 @@ describe('Funcionalidade Página de produtos', () => {
 
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain', quantidade)
         cy.get('.woocommerce-message').should('contain', quantidade + ' × “Apollo Running Short” foram adicionados no seu carrinho.')
+    });
+
+    it('Deve adicionar produtos ao carrinho usando comando customizado', () => {
+        cy.addProdutos('Apollo Running Short', 3)
     });
 
 });

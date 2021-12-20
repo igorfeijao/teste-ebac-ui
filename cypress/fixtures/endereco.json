@@ -1,0 +1,46 @@
+[
+
+    {
+        "nome": "Igor",
+        "sobrenome": "Brelaz",
+        "empresa": "CI&T",
+        "endereco": "Avenida das Américas",
+        "numero": "3000",
+        "pais": "Brasil",
+        "cidade": "Rio de Janeiro",
+        "estado": "Rio de Janeiro",
+        "cep": "286549749",
+        "telefone": "21 24038649",
+        "email": "igteste@teste.com"
+
+    },
+
+    {
+        "nome": "Gabriel",
+        "sobrenome": "Araujo",
+        "empresa": "EBAC",
+        "endereco": "Estrada dos Bandeirantes",
+        "numero": "24081",
+        "pais": "Brasil",
+        "cidade": "Rio de Janeiro",
+        "estado": "Rio de Janeiro",
+        "cep": "24081457",
+        "telefone": "21 25963196",
+        "email": "gabriel@teste.com"
+    },
+
+    {
+        "nome": "Janice",
+        "sobrenome": "Mallet",
+        "empresa": "Contac",
+        "endereco": "Rua das Amoras",
+        "numero": "125",
+        "pais": "Brasil",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "cep": "20596873",
+        "telefone": "11 35697496",
+        "email": "janice@teste.com"
+    }
+
+]
